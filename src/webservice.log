@@ -1,0 +1,237 @@
+INFO:httpstream:> GET http://localhost:7474/db/data/
+INFO:httpstream:< 200 OK [730]
+INFO:root:STARTING PREPROCESSING...
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [151]
+INFO:httpstream:< 200 OK [22625]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2919]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2919]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:root:PREPROCESSING END
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:httpstream:> GET http://localhost:7474/db/data/
+INFO:httpstream:< 200 OK [730]
+INFO:root:STARTING PREPROCESSING...
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [151]
+INFO:httpstream:< 200 OK [22625]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:root:PREPROCESSING END
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:GET Marii FRIENDS
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [172]
+INFO:httpstream:~ Reconnecting (peer closed connection)
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [172]
+INFO:httpstream:< 200 OK [314]
+WARNING:root:ERRO 404: Marii NOT FOUND
+INFO:werkzeug:127.0.0.1 - - [02/Jun/2017 18:26:09] "GET /friends/Marii HTTP/1.1" 200 -
+INFO:root:GET Mari FRIENDS
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [171]
+INFO:httpstream:< 200 OK [3678]
+INFO:werkzeug:127.0.0.1 - - [02/Jun/2017 18:26:13] "GET /friends/Mari HTTP/1.1" 200 -
+INFO:httpstream:> GET http://localhost:7474/db/data/
+INFO:httpstream:< 200 OK [730]
+INFO:root:STARTING PREPROCESSING...
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [151]
+INFO:httpstream:< 200 OK [22625]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:root:PREPROCESSING END
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Jun/2017 18:31:46] "GET /log HTTP/1.1" 500 -
+INFO:httpstream:> GET http://localhost:7474/db/data/
+INFO:httpstream:< 200 OK [730]
+INFO:root:STARTING PREPROCESSING...
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [151]
+INFO:httpstream:< 200 OK [22625]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:root:PREPROCESSING END
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Jun/2017 18:32:36] "GET /log HTTP/1.1" 500 -
+INFO:httpstream:> GET http://localhost:7474/db/data/
+INFO:httpstream:< 200 OK [730]
+INFO:root:STARTING PREPROCESSING...
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [151]
+INFO:httpstream:< 200 OK [22625]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:root:PREPROCESSING END
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Jun/2017 18:33:06] "GET /log HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Jun/2017 18:33:13] "GET /log HTTP/1.1" 500 -
+INFO:httpstream:> GET http://localhost:7474/db/data/
+INFO:httpstream:< 200 OK [730]
+INFO:root:STARTING PREPROCESSING...
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [151]
+INFO:httpstream:< 200 OK [22625]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:root:PREPROCESSING END
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Jun/2017 18:33:30] "GET /log HTTP/1.1" 500 -
+INFO:httpstream:> GET http://localhost:7474/db/data/
+INFO:httpstream:< 200 OK [730]
+INFO:root:STARTING PREPROCESSING...
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [151]
+INFO:httpstream:< 200 OK [22625]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:root:PREPROCESSING END
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Jun/2017 18:33:48] "GET /log HTTP/1.1" 500 -
+INFO:httpstream:> GET http://localhost:7474/db/data/
+INFO:httpstream:< 200 OK [730]
+INFO:root:STARTING PREPROCESSING...
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [151]
+INFO:httpstream:< 200 OK [22625]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:root:PREPROCESSING END
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Jun/2017 18:36:53] "GET /log HTTP/1.1" 500 -
+INFO:httpstream:> GET http://localhost:7474/db/data/
+INFO:httpstream:< 200 OK [730]
+INFO:root:STARTING PREPROCESSING...
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [151]
+INFO:httpstream:< 200 OK [22625]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:root:PREPROCESSING END
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Jun/2017 18:37:33] "GET /log HTTP/1.1" 500 -
+INFO:httpstream:> GET http://localhost:7474/db/data/
+INFO:httpstream:< 200 OK [730]
+INFO:root:STARTING PREPROCESSING...
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [151]
+INFO:httpstream:< 200 OK [22625]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:root:PREPROCESSING END
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Jun/2017 18:37:49] "GET /log HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Jun/2017 18:37:49] "GET /log HTTP/1.1" 500 -
+INFO:httpstream:> GET http://localhost:7474/db/data/
+INFO:httpstream:< 200 OK [730]
+INFO:root:STARTING PREPROCESSING...
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [151]
+INFO:httpstream:< 200 OK [22625]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:root:PREPROCESSING END
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Jun/2017 18:38:10] "GET /log HTTP/1.1" 200 -
+INFO:httpstream:> GET http://localhost:7474/db/data/
+INFO:httpstream:< 200 OK [730]
+INFO:root:STARTING PREPROCESSING...
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [151]
+INFO:httpstream:< 200 OK [22625]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [260]
+INFO:httpstream:< 200 OK [2920]
+INFO:root:PREPROCESSING END
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:GET Mari FRIENDS
+INFO:httpstream:> POST http://localhost:7474/db/data/transaction/commit [171]
+INFO:httpstream:< 200 OK [3678]
+INFO:werkzeug:127.0.0.1 - - [02/Jun/2017 18:39:45] "GET /friends/Mari HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jun/2017 18:39:48] "GET /log HTTP/1.1" 200 -
+2017-06-02 18:43:44,449 > GET http://localhost:7474/db/data/
+2017-06-02 18:43:44,453 < 200 OK [730]
+2017-06-02 18:43:44,454 STARTING PREPROCESSING...
+2017-06-02 18:43:44,455 > POST http://localhost:7474/db/data/transaction/commit [151]
+2017-06-02 18:43:44,466 < 200 OK [22625]
+2017-06-02 18:43:44,478 > POST http://localhost:7474/db/data/transaction/commit [260]
+2017-06-02 18:43:44,483 < 200 OK [2920]
+2017-06-02 18:43:44,486 > POST http://localhost:7474/db/data/transaction/commit [260]
+2017-06-02 18:43:44,493 < 200 OK [2920]
+2017-06-02 18:43:44,497 > POST http://localhost:7474/db/data/transaction/commit [260]
+2017-06-02 18:43:44,503 < 200 OK [2920]
+2017-06-02 18:43:44,507 > POST http://localhost:7474/db/data/transaction/commit [260]
+2017-06-02 18:43:44,513 < 200 OK [2920]
+2017-06-02 18:43:44,515 PREPROCESSING END
+2017-06-02 18:43:44,521  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-06-02 18:44:52,941 > GET http://localhost:7474/db/data/
+2017-06-02 18:44:52,949 < 200 OK [730]
+2017-06-02 18:44:52,950 STARTING PREPROCESSING...
+2017-06-02 18:44:52,951 > POST http://localhost:7474/db/data/transaction/commit [151]
+2017-06-02 18:44:52,961 < 200 OK [22625]
+2017-06-02 18:44:52,967 > POST http://localhost:7474/db/data/transaction/commit [260]
+2017-06-02 18:44:52,971 < 200 OK [2920]
+2017-06-02 18:44:52,973 > POST http://localhost:7474/db/data/transaction/commit [260]
+2017-06-02 18:44:52,977 < 200 OK [2920]
+2017-06-02 18:44:52,979 > POST http://localhost:7474/db/data/transaction/commit [260]
+2017-06-02 18:44:52,983 < 200 OK [2920]
+2017-06-02 18:44:52,985 > POST http://localhost:7474/db/data/transaction/commit [260]
+2017-06-02 18:44:52,990 < 200 OK [2920]
+2017-06-02 18:44:52,995 PREPROCESSING END
+2017-06-02 18:44:53,003  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
