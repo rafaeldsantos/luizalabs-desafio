@@ -71,18 +71,11 @@ def get_sugestions():
         required: true
         description:
     responses:
-      404:
-        description:
       200:
         description: """
     username = str(request.args.get('username', 1))
     logging.info('GET {} SUGGESTIONS'.format(username))
-    try:
-        data = database.get_suggestion(username)
-    except UserNotFound:
-        logging.warning('ERROR 404: {} NOT FOUND'.format(username))
-        data = {'Error':'Username {} not found'.format(username)}
-        return jsonify(data=data, meta={"status": "404"})
+    data = database.get_suggestion(username)
     return jsonify(data=data, meta={"status": "ok"})
 
 

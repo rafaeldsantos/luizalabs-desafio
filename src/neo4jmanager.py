@@ -18,8 +18,6 @@ class Neo4jManager:
     def get_suggestion(self,name):
         query = "MATCH (p:Person) WHERE  (:Person {name:'%s'} )-[:SUGGESTED]->(p) return p" %(name)
         results = self.graph.run(query)
-        if data == []:
-            raise UserNotFound
         data = results.data()
         sugesteds ={ "Sugesteds": [x["p"]["name"] for x in data ]}
         return sugesteds
@@ -49,3 +47,4 @@ class UserNotFound(Exception):
 if __name__ == '__main__':
     n = Neo4jManager()
     print(n.get_friends("Mari"))
+    import pdb;pdb.set_trace()
