@@ -28,7 +28,7 @@ WORKDIR /app
 RUN pip3 install -r requirements.txt
 RUN neo4j-admin set-initial-password pudim
 RUN neo4j start
-EXPOSE 5000
+EXPOSE 5000 80
 EXPOSE 7474 7473 7687
 RUN chmod +x init_server.sh
 CMD ./init_server.sh

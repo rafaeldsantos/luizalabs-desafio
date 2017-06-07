@@ -8,6 +8,10 @@ app = Flask(__name__)
 Swagger(app)
 database = Neo4jManager()
 
+@app.route('/')
+def index():
+    return redirect(url_for('apidocs'))
+
 @app.route('/friends/<username>', methods=['GET'])
 def get_friends(username):
     logging.info('GET {} FRIENDS'.format(username))
@@ -25,39 +29,25 @@ app = Flask(__name__)
 Swagger(app)
 database = Neo4jManager()
 
-@app.route('/friends/<username>', methods=['GET'])
-def get_friends(username):
-    # """
-    # This is the language awesomeness API
-    # Call this api passing a language name and get back its features
-    # ---
-    # tags:
-    #   - Awesomeness Language API
-    # parameters:
-    #   - name: username
-    #     in: path
-    #     type: string
-    #     required: true
-    # responses:
-    #   404:
-    #     description: User not found!
-    #   200:
-    #     description: A language with its awesomeness
-    #     schema:
-    #       id: awesome
-    #       properties:
-    #         language:
-    #           type: string
-    #           description: The language name
-    #           default: Lua
-    #         features:
-    #           type: array
-    #           description: The awesomeness list
-    #           items:
-    #             type: string
-    #           default: ["perfect", "simple", "lovely"]
-    #
-    # """
+@app.route('/friends/', methods=['GET'])
+def get_friends():
+    """
+    API
+    ---
+    tags:
+      - LuizaLabs Desafio
+    parameters:
+      - name: username
+        in: query
+        type: string
+        required: true
+        description:
+    responses:
+      404:
+        description:
+      200:
+        description: """
+    username = str(request.args.get('username', 1))
     logging.info('GET {} FRIENDS'.format(username))
     try:
         data = database.get_friends(username)
@@ -67,8 +57,25 @@ def get_friends(username):
         return jsonify(data=data, meta={"status": "404"})
     return jsonify(data=data, meta={"status": "ok"})
 
-@app.route('/sugestions/<username>', methods=['GET'])
-def get_sugestions(username):
+@app.route('/sugestions/', methods=['GET'])
+def get_sugestions():
+    """
+    API
+    ---
+    tags:
+      - LuizaLabs Desafio
+    parameters:
+      - name: username
+        in: query
+        type: string
+        required: true
+        description:
+    responses:
+      404:
+        description:
+      200:
+        description: """
+    username = str(request.args.get('username', 1))
     logging.info('GET {} SUGGESTIONS'.format(username))
     try:
         data = database.get_suggestion(username)
@@ -81,6 +88,15 @@ def get_sugestions(username):
 
 @app.route('/log', methods=['GET'])
 def get_log():
+    """
+    API
+    ---
+    tags:
+      - LuizaLabs Desafio
+    responses:
+      200:
+        description: """
+    username = str(request.args.get('username', 1))
     with open("webservice.log", "r") as content_log:
         log = content_log.read().split('\n')
 
@@ -90,5 +106,5 @@ if __name__ == '__main__':
     logging.info('STARTING PREPROCESSING...')
     database.preprocessing()
     logging.info('PREPROCESSING END')
-    app.run(host='0.0.0.0')
+    app.run(host='0.0.0.0', port=80)
     # app.run()
